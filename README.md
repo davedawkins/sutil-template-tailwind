@@ -1,6 +1,6 @@
 ## Sutil Template for Tailwind
 
-The Sutil Hello World program, but using Tailwind, with:
+The `Sutil Hello World program, but using Tailwind, with:
 - CSS purging (using tailwindcss-cli)
 - IntelliSense (using Tailwind CSS Intellisense plugin)
 
@@ -49,6 +49,7 @@ Use Sutil's `class'` property to specify the Tailwind classes:
 ```fs
     Html.div [
         class' "bg-red-400 text-sm p-1"
+        // ...
     ]
 ```
 
@@ -60,7 +61,6 @@ the Tailwind CSS IntelliSense plugin (for VSCode). Add the following to `setting
        "class'\\s+\"([^\"]*)\""
    ],
    "tailwindCSS.includeLanguages": {
-       "fsharp": "html",
-       "fs": "html"
+       "fsharp": "html"
    }
 ```
