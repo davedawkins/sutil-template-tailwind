@@ -44,7 +44,7 @@ Add a reference to generated CSS file `tailwind.css` in your `index.html`
 
 ### Referencing Tailwind in a Sutil App
 
-Use Sutil's `class'` property to specify the Tailwind classes:
+Use Sutil's `class'` property from Sutil.CoreElements to specify the Tailwind classes:
 
 ```fs
     Html.div [
