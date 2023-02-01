@@ -5,7 +5,7 @@
     "build": "dotnet fable       src/App --run npm run pack:prod",
     "pack": "npm run tailwind && webpack serve",
     "pack:prod": "npm run tailwind && webpack --mode production",
-    "tailwind": "NODE_ENV=production tailwindcss build -o public/tailwind.css"
+    "tailwind": "cross-env NODE_ENV=production tailwindcss build -o public/tailwind.css"
   },
   "dependencies": {
     "webpack": "^5.11.0",
@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",
+    "cross-env": "^7.0.3",
     "postcss": "^8.2.10",
     "tailwindcss": "^3.2.4"
   }
