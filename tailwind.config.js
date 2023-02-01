@@ -1,8 +1,7 @@
 module.exports = {
-    purge: [
+    content: [
         './src/**/*.fs.js',
     ],
-    darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {},
     },
