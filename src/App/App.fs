@@ -10,4 +10,4 @@ let view() =
         text "Hello Tailwind World"
     ]
 
-view() |> Program.mountElement "sutil-app"
+view() |> Program.mount
